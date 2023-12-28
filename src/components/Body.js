@@ -1,8 +1,12 @@
 import React from 'react'
-
+import Sidebar from '../components/Sidebar'
+import MainContainer from '../components/MainConatiner'
 const Body = () => {
   return (
-    <div>Body</div>
+    <div className='grid grid-flow-col'>
+        <Sidebar/>
+        <MainContainer/>
+    </div>
   )
 }
 
