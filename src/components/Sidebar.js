@@ -7,7 +7,7 @@ const Sidebar = () => {
         return null
     }
   return (
-    <div className='col-span-1 border border-black h-screen'>
+    <div className='col-span-1 border border-black h-screen mt-8'>
     <div>
         <ul className='p-2 m-2'>
             <li className='flex'>
